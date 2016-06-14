@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+
+.line {
+	border-left:1px solid white;
+	color:white;
+	padding:10px;
+	margin-left:15px;
+	font-family:Righteous;
+	font-size:20px;
+	padding-top:6px;
+
+}
+
+.image {
+	margin-left:125px;
+}
+
+.navBar {
+	background:black;
+	width:5000px;
+	height:75px;
+}
+
+h2 {
+	margin-top:0px;
+
+}
+
+.search {
+	font-family:Righteous;
+}
+
+body {
+	background-color:#f2f2f2;
+	display:block;
+	width:35em;
+	margin:auto;
+	margin-top:20px;
+}
+
+#background {
+	background-color:#f8f8f8;
+    position: static;
+    left:47%;
+    top:30%;
+    bottom: 0;
+    margin-left:92%;
+    margin-top:7%;
+    right: 0;
+    width: 100%;
+}
+
+
+a {
+	list-style-type:none;
+	text-decoration:none;
+	color:black;
+}
+
+.dropContent {
+	display:none;
+}
+
+
+.question {
+	text-align:center;
+	font-family:Righteous;
+	padding:100px;
+}
+
+.weather_question {
+	display:none;
+}
+
+.song_list {
+	display:none;
+	text-align:center;
+	size:30px;
+}
