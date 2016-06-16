@@ -1,5 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 
+.line_wrapper{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo_wrapper{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .line {
 	border-left:1px solid white;
@@ -17,8 +28,9 @@
 }
 
 .navBar {
+	display:flex;
 	background:black;
-	width:5000px;
+	width:auto;
 	height:75px;
 }
 
@@ -33,22 +45,14 @@ h2 {
 
 body {
 	background-color:#f2f2f2;
-	display:block;
-	width:35em;
+	width:auto;
 	margin:auto;
 	margin-top:20px;
 }
 
 #background {
 	background-color:#f8f8f8;
-    position: static;
-    left:47%;
-    top:30%;
-    bottom: 0;
-    margin-left:92%;
-    margin-top:7%;
-    right: 0;
-    width: 100%;
+
 }
 
 
